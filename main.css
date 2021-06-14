@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Work+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(images/PrajwalSoni.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+section {
+  padding: 100px;
+  color: #111;
+  background-color: #f1f1f1;
+}
+.scrollTop {
+  z-index: 100000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 2s;
+}
+.scrollTop.active {
+  visibility: visible;
+  opacity: 1;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 135px 0px 135px 0px;
+}
+.item1 {
+  text-align: left;
+  padding-left: 20px;
+}
+.item1 img {
+  width: 500px;
+  height: 500px;
+  clip-path: circle(50% at 50% 50%);
+}
+.item2 {
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+.item2 p1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 100px;
+}
+.item2 p2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 26px;
+}
+.item2 p3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+}
+.grid-navbar {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: -70px -30px 0px 0px;
+}
+.nav2 a {
+  font-family: "Quicksand", sans-serif;
+  margin-right: 10px;
+}
+.nav2 a:hover {
+  color: #116dff;
+}
+.nav4 a {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 10px 0px 10px;
+}
+.nav4 a:hover {
+  color: #116dff;
+}
+.nav6 a {
+  font-family: "Quicksand", sans-serif;
+  margin-left: 10px;
+}
+.nav6 a:hover {
+  color: #116dff;
+}
+.grid-circle {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: auto auto auto;
+  margin: 20px -20px 0px 0px;
+}
+.c1 {
+  border: 1px solid black;
+  background-color: rgb(128, 216, 218);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0.5em;
+}
+.c1:hover {
+  background-color: white;
+}
+.c2 {
+  border: 1px solid black;
+  background-color: rgb(255, 59, 37);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0.5em;
+}
+.c2:hover {
+  background-color: white;
+}
+.c3 {
+  border: 1px solid black;
+  background-color: rgb(238, 163, 2);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0.5em;
+}
+.c3:hover {
+  background-color: white;
+}
+.text {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+}
+.grid-footer {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 30px;
+  margin-bottom: -75px;
+}
+.f1 {
+  line-height: 80%;
+}
+.fc {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+}
+.fb {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+.fab {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.fa-linkedin:hover {
+  color: #2867b2;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-youtube:hover {
+  color: red;
+}

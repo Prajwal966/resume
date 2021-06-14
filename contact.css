@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Work+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+section {
+  padding: 40px 100px 250px 100px;
+  color: #111;
+  background-color: #f1f1f1;
+}
+.grid-navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-navbar1 {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: auto auto;
+}
+.name {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+}
+.grid-navbar2 {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: auto auto auto auto auto;
+}
+.nav2 a {
+  font-family: "Quicksand", sans-serif;
+  margin-right: 10px;
+}
+.nav2 a:hover {
+  color: #116dff;
+}
+.nav4 a {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 10px 0px 10px;
+}
+.nav4 a:hover {
+  color: #116dff;
+}
+.nav6 a {
+  font-family: "Quicksand", sans-serif;
+  margin-left: 10px;
+  color: #116dff;
+}
+.item1 {
+  grid-area: contact;
+}
+.item2 {
+  grid-area: phone;
+}
+.item3 {
+  grid-area: mail;
+}
+.item4 {
+  grid-area: form;
+}
+.grid-container {
+  margin: 100px 250px;
+  display: grid;
+  grid-template-areas:
+    "contact form"
+    "phone form"
+    "mail form";
+}
+.item1 {
+  line-height: 30px;
+}
+.item1 p1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 42px;
+}
+.item1 p2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+.item2 {
+  line-height: 20px;
+  padding-top: -40px;
+}
+.item2 p1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+}
+.item2 a {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+.item3 {
+  line-height: 20px;
+  margin-top: -44px;
+}
+.item3 p1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+}
+.item3 a {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+.grid-table {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+input {
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #f1f1f1;
+  width: 90%;
+  font-size: 16px;
+}
+textarea {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+input:hover {
+  border: 1px solid black;
+}
+label {
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+.c3 {
+  border: 1px solid black;
+  background-color: rgb(238, 163, 2);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 30px 0.5em;
+}
+.c3:hover {
+  background-color: white;
+}
+.text {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+}

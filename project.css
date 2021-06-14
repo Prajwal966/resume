@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Work+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+section {
+  padding: 40px 100px 0px 100px;
+  color: #111;
+  background-color: #f1f1f1;
+}
+.grid-navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-navbar1 {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: auto auto;
+}
+.name {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+}
+.grid-navbar2 {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: auto auto auto auto auto;
+}
+.nav2 a {
+  font-family: "Quicksand", sans-serif;
+  margin-right: 10px;
+}
+.nav2 a:hover {
+  color: #116dff;
+}
+.nav4 a {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px 10px 0px 10px;
+  color: #116dff;
+}
+.nav6 a {
+  font-family: "Quicksand", sans-serif;
+  margin-left: 10px;
+}
+.nav6 a:hover {
+  color: #116dff;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 100px 250px 30px;
+}
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  font-family: "Work Sans", sans-serif;
+  font-size: 42px;
+}
+.item2 {
+  grid-column: 1;
+  grid-row: 2;
+  padding-top: 70px;
+}
+.item2 p1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 26px;
+}
+.item2 p2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+img {
+  width: 500px;
+  height: 300px;
+}
+.image_project1 {
+  grid-column: 2;
+  grid-row: 2;
+  background-size: 100% 100%;
+  width: 500px;
+  left: 0px;
+  margin: 50px 0px -50px 0px;
+  animation: slider1 25s infinite;
+}
+@keyframes slider1 {
+  0% {
+    background-image: url(images/p1/a.png);
+    left: 0;
+  }
+  20% {
+    background-image: url(images/p1/a.png);
+    left: 0;
+  }
+  25% {
+    background-image: url(images/p1/b.png);
+    left: -100%;
+  }
+  45% {
+    background-image: url(images/p1/b.png);
+    left: -100%;
+  }
+  50% {
+    background-image: url(images/p1/c.png);
+    left: -200%;
+  }
+  70% {
+    background-image: url(images/p1/c.png);
+    left: -200%;
+  }
+  75% {
+    background-image: url(images/p1/e.png);
+    left: -300%;
+  }
+  95% {
+    background-image: url(images/p1/e.png);
+    left: -300%;
+  }
+  100% {
+    background-image: url(images/p1/a.png);
+    left: -400%;
+  }
+}
+.item3 {
+  grid-column: 1;
+  grid-row: 3;
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+.item3 p1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 26px;
+}
+.item3 p2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+.image_project2 {
+  grid-column: 2;
+  grid-row: 3;
+  background-size: 100% 100%;
+  width: 500px;
+  left: 0px;
+  margin: 150px 0px 150px 0px;
+  animation: slider2 20s infinite;
+}
+@keyframes slider2 {
+  0% {
+    background-image: url(images/p2/a.jpeg);
+    left: 0;
+  }
+  20% {
+    background-image: url(images/p2/a.jpeg);
+    left: 0;
+  }
+  25% {
+    background-image: url(images/p2/b.jpeg);
+    left: -100%;
+  }
+  45% {
+    background-image: url(images/p2/b.jpeg);
+    left: -100%;
+  }
+  50% {
+    background-image: url(images/p2/c.jpeg);
+    left: -200%;
+  }
+  70% {
+    background-image: url(images/p2/c.jpeg);
+    left: -200%;
+  }
+  75% {
+    background-image: url(images/p2/d.jpeg);
+    left: -300%;
+  }
+  95% {
+    background-image: url(images/p2/d.jpeg);
+    left: -300%;
+  }
+  100% {
+    background-image: url(images/p2/a.jpeg);
+    left: -400%;
+  }
+}
+.grid-footer {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.f1 {
+  line-height: 80%;
+}
+.fc {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+}
+.fb {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+.fab {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.fa-linkedin:hover {
+  color: #2867b2;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-youtube:hover {
+  color: red;
+}
